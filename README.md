@@ -26,3 +26,5 @@
 <p>Los sensores activos tienen la capacidad de emitir su propia energía en forma de un pulso electromagnético y medir la señal reflejada por el área iluminada.  </p> 
 <img src="fig2.png" />
 <h4 id="Sección1">Fig 2.Sistema de teledetección activa (Weng, 2012).</h4>
+
+<p> Todo sistema activo se basa en el principio de <strong>ecolocalización</strong>, mismo que utilizan las poblaciones de murciélagos y delfines, o el que podemos encontrar en los sonares o en radares meteorológicos.  </p> 
