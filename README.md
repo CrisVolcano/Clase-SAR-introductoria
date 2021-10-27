@@ -10,12 +10,15 @@
 <p>Índice</p> 
 
 <p><li><a href="#Sección1">1. Sensores activos vs sensores pasivos</a></li>
-<li><a href="#Sección2">2. Parametros del sensor</a></li>
-<li><a href="#Sección3">3. Parametros de la cobertura</a></li>
-<li><a href="#Sección4">4. Errores y distorciones geométricas y radiométricas</a></li>
-<li><a href="#Sección5">5. Interpretando una imágen SAR</a></li>
+ <li><a href="#Sección2">2. Las microondas </a></li>
+<li><a href="#Sección3">2. Parametros del sensor</a></li>
+<li><a href="#Sección4">3. Parametros de la cobertura</a></li>
+<li><a href="#Sección5">4. Errores y distorciones geométricas y radiométricas</a></li>
+<li><a href="#Sección6">5. Interpretando una imágen SAR</a></li>
 
 
 <p><h2 id="Sección1">1. Sensores activos vs sensores pasivos</h2></p>
 
 <p>En los sensores pasivos se aprovecha la energía solar. Miden la energía reflejada por las coberturas en la superficie terrestre en múltiples longitudes de onda o bandas. </p> 
+<img src="fi1.png" />
+<h4 id="Sección1">Fig 1.Sistema de teledetección pasiva.</h4>
