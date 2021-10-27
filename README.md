@@ -22,3 +22,7 @@
 <p>En los sensores pasivos se aprovecha la energía solar. Miden la energía reflejada por las coberturas en la superficie terrestre en múltiples longitudes de onda o bandas. </p> 
 <img src="fi1.png" />
 <h4 id="Sección1">Fig 1.Sistema de teledetección pasiva (Weng, 2012).</h4>
+
+<p>Los sensores activos tienen la capacidad de emitir su propia energía en forma de un pulso electromagnético y medir la señal reflejada por el área iluminada.  </p> 
+<img src="fig2.png" />
+<h4 id="Sección1">Fig 1.Sistema de teledetección activa (Weng, 2012).</h4>
