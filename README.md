@@ -18,3 +18,4 @@
 
 <p><h2 id="Sección1">1. Sensores activos vs sensores pasivos</h2></p>
 
+<p>En los sensores pasivos se aprovecha la energía solar. Miden la energía reflejada por las coberturas en la superficie terrestre en múltiples longitudes de onda o bandas. </p> 
