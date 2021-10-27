@@ -27,6 +27,6 @@
 <img src="fig2.png" />
 <h4 id="Sección1">Fig 2.Sistema de teledetección activa (Weng, 2012).</h4>
 
-<p> Todo sistema activo se basa en el principio de <strong>ecolocalización</strong>, mismo que utilizan las poblaciones de murciélagos y delfines, o el que podemos encontrar en los sonares o en radares meteorológicos. Este mecanismo nos permite   </p> 
+<p> Todo sistema activo se basa en el principio de <strong>ecolocalización</strong>, mismo que utilizan las poblaciones de murciélagos y delfines, o el que podemos encontrar en los sonares o en radares meteorológicos.</p> 
 <img src="fig3.jpg" />
 <h4 id="Sección1">Fig 3.Principio de ecolocalización (Weng, 2012).</h4>
