@@ -33,3 +33,4 @@
 
 <p><h2 id="Sección2">2. Las microondas</h2></p>
 
+<p> La <strong>energía electromagnética</strong>,se transmite de un lugar a otro siguiendo un modelo armónico y continuo a la velocidad de la luz. Una onda electromagnética está compuesta por dos campos o fuerzas ortogonales:<strong> el campo eléctrico y el campo magnético</strong>.</p> 
