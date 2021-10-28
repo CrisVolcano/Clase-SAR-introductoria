@@ -27,6 +27,6 @@
 <img src="fig2.png" />
 <h4 id="Sección1">Fig 2.Sistema de teledetección activa (Weng, 2012).</h4>
 
-<p> Todo sistema activo se basa en el principio de <strong>ecolocalización</strong>, mismo que utilizan las poblaciones de murciélagos y delfines, o el que podemos encontrar en los sonares o en radares meteorológicos. Con esta técnia podemos averiguar la distancia entre un punto emisor y un objetivo a partir del tiempo que dura el pulso en ir y volver. Más adelante aprenderemos que también es posible obtener otro tipo de información de este mecanismo y como nos permite obtener imágenes de la superficie terrestre.</p> 
+<p> Todo sistema activo se basa en el principio de <strong>ecolocalización</strong>, mismo que utilizan las poblaciones de murciélagos y delfines, o el que podemos encontrar en sonares o en radares meteorológicos. Con esta técnia podemos averiguar la distancia entre un punto emisor y un objetivo a partir del tiempo que dura el pulso en ir y volver. Más adelante aprenderemos que también es posible obtener otro tipo de información de este mecanismo y que es vital para la formación de imagenes SAR.</p> 
 <img src="fig3.jpg" />
 <h4 id="Sección1">Fig 3.Principio de ecolocalización (Weng, 2012).</h4>
