@@ -48,4 +48,8 @@
 
 Esto implica también que estas ondas tienen una menor frecuencia y menor energía.</p>
 
+<img src="fig5.png" />
+<h4 id="Sección1">Fig 5. Espectro electromagnético (Chuvieco, 2007).</h4>
+
 <p>En estas longitudes de onda la atmósfera es "transparente", por lo que la nubosidad u otras distorsiones atmosféricas no son un problema al adquirir imágenes radar independientemente de si es un sensor activo o pasivo.</p>
+
