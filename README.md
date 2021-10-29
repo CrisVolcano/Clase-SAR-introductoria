@@ -53,3 +53,7 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 
 <p>En estas longitudes de onda la atmósfera es "transparente", por lo que la nubosidad u otras distorsiones atmosféricas no son un problema al adquirir imágenes radar independientemente de si es un sensor activo o pasivo.</p>
 
+<p>El espectro del microondas se encuentra en una ventana atmosférica, lo que permite que gran parte de la señal se transmita hasta la superficie terrestre. Estas ventanas atmosféricas son el equivalente de lo que llamamos bandas y es una de las principales razones por la que existe la teledetección orientada a la observación de la tierra.</p> 
+
+<img src="fig6.png" />
+<h4 id="Sección1">Fig 6. Espectro electromagnético (Chuvieco, 2007).</h4>
