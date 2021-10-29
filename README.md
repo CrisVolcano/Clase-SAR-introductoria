@@ -37,5 +37,9 @@
 
 <p> Describimos una onda mediante su longitud de onda (λ) y su frecuencia (F). No obstante, en SAR nos interesan dos parámetros más: la amplitud de la onda (A) y la fase de la onda (φ).</p> 
 
+<p> λ: El periodo espacial sobre el que se repite la función (la distancia entre crestas)
+F: Número de ciclos por unidad de tiempo. 
+A: La potencia o fuerza de la onda. 
+φ: Describe en qué fase de ciclo se encuentra la onda. La fase inicial define la etapa de la que sale la onda. El uso de la fase no lo evaluaremos acá, pero  es importante que es un parámetro importante. 
 
 
