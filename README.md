@@ -57,3 +57,4 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 
 <img src="fig6.png" />
 <h4 id="Sección2">Fig 6. Espectro electromagnético (Chuvieco, 2007).</h4>
+
