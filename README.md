@@ -29,7 +29,7 @@
 
 <p> Todo sistema activo se basa en el principio de <strong>ecolocalización</strong>, mismo que utilizan las poblaciones de murciélagos y delfines, o el que podemos encontrar en sonares o en radares meteorológicos. Con esta técnia podemos averiguar la distancia entre un punto emisor y un objetivo a partir del tiempo que dura el pulso en ir y volver. Más adelante, aprenderemos que también es posible obtener otro tipo de información de este mecanismo y que es vital para la formación de imagenes SAR.</p> 
 <img src="fig3.jpg" />
-<h4 id="Sección1">Fig 3.Principio de ecolocalización (Weng, 2012).</h4>
+<h4 id="Sección1">Fig 3.Principio de ecolocalización.</h4>
 
 <p><h2 id="Sección2">2. Las microondas</h2></p>
 
@@ -42,4 +42,5 @@
 <p>A: La potencia o fuerza de la onda.</p>
 <p>φ: Describe en qué fase de ciclo se encuentra la onda. La fase inicial define la etapa de la que sale la onda. El uso de la fase no lo evaluaremos acá, pero  es importante que es un parámetro importante.</p>
 
-
+<img src="fig.png" />
+<h4 id="Sección1">Fig 4. Caracteristicas de una onda (Weng, 2012).</h4>
