@@ -10,11 +10,12 @@
 <p>Índice</p> 
 
 <p><li><a href="#Sección1">1. Sensores activos vs sensores pasivos</a></li>
- <li><a href="#Sección2">2. Las microondas y RADAR </a></li>
-<li><a href="#Sección3">2. Parametros del sensor</a></li>
-<li><a href="#Sección4">3. Parametros de la cobertura</a></li>
-<li><a href="#Sección5">4. Errores y distorciones geométricas y radiométricas</a></li>
-<li><a href="#Sección6">5. Interpretando una imágen SAR</a></li>
+ <li><a href="#Sección2">2. Las microondas y SAR </a></li>
+  <li><a href="#Secció32">3. Geometría del SAR</a></li>
+<li><a href="#Sección4">4. Parametros del sensor</a></li>
+<li><a href="#Sección5">5. Parametros de la cobertura</a></li>
+<li><a href="#Sección6">6. Errores y distorciones geométricas y radiométricas</a></li>
+<li><a href="#Sección7">7. Interpretando una imágen SAR</a></li>
 
 
 <p><h2 id="Sección1">1. Sensores activos vs sensores pasivos</h2></p>
@@ -31,7 +32,7 @@
 <img src="fig3.jpg" />
 <h4 id="Sección1">Fig 3.Principio de ecolocalización.</h4>
 
-<p><h2 id="Sección2">2. Las microondas</h2></p>
+<p><h2 id="Sección2">2. Las microondas y SAR</h2></p>
 
 <p> La <strong>energía electromagnética</strong>,se transmite de un lugar a otro siguiendo un modelo armónico y continuo a la velocidad de la luz. Esta energia electromagnética está compuesta por dos campos o fuerzas ortogonales:<strong> el campo eléctrico y el campo magnético</strong>. Esta energía se propaga en forma de ondas</p> 
 
@@ -58,3 +59,7 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <img src="fig6_.png" />
 <h4 id="Sección2">Fig 6. Espectro electromagnético (Chuvieco, 2007).</h4>
 
+<p><h2 id="Sección3">3. Geometría del SAR</h2></p>
+
+<img src="fig7.png" />
+<h4 id="Sección2">Fig 6. Espectro electromagnético (Chuvieco, 2007).</h4>
