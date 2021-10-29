@@ -44,3 +44,6 @@
 
 <img src="fig4.png" />
 <h4 id="Sección1">Fig 4. Caracteristicas de una onda (Weng, 2012).</h4>
+<p>Las ondas electromagnéticas en el espectro de las microondas suelen tener λ superior a los 3 cm (10 GHz). Mucho mayores que las utilizadas en el espectro visible e infrarrojo. 
+
+Esto implica también que estas ondas tienen una menor frecuencia y menor energía.</p>
