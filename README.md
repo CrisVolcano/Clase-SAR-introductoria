@@ -43,17 +43,17 @@
 <p>φ: Describe en qué fase de ciclo se encuentra la onda. La fase inicial define la etapa de la que sale la onda. El uso de la fase no lo evaluaremos acá, pero  es importante que es un parámetro importante.</p>
 
 <img src="fig4.png" />
-<h4 id="Sección1">Fig 4. Caracteristicas de una onda (Weng, 2012).</h4>
+<h4 id="Sección2">Fig 4. Caracteristicas de una onda (Weng, 2012).</h4>
 <p>Las ondas electromagnéticas en el espectro de las microondas suelen tener λ superior a los 3 cm (10 GHz). Mucho mayores que las utilizadas en el espectro visible e infrarrojo. 
 
 Esto implica también que estas ondas tienen una menor frecuencia y menor energía.</p>
 
 <img src="fig5.png" />
-<h4 id="Sección1">Fig 5. Espectro electromagnético (Chuvieco, 2007).</h4>
+<h4 id="Sección2">Fig 5. Espectro electromagnético (Chuvieco, 2007).</h4>
 
 <p>En estas longitudes de onda la atmósfera es "transparente", por lo que la nubosidad u otras distorsiones atmosféricas no son un problema al adquirir imágenes radar independientemente de si es un sensor activo o pasivo.</p>
 
 <p>El espectro del microondas se encuentra en una ventana atmosférica, lo que permite que gran parte de la señal se transmita hasta la superficie terrestre. Estas ventanas atmosféricas son el equivalente de lo que llamamos bandas y es una de las principales razones por la que existe la teledetección orientada a la observación de la tierra.</p> 
 
 <img src="fig6.png" />
-<h4 id="Sección1">Fig 6. Espectro electromagnético (Chuvieco, 2007).</h4>
+<h4 id="Sección2">Fig 6. Espectro electromagnético (Chuvieco, 2007).</h4>
