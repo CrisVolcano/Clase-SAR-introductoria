@@ -10,7 +10,7 @@
 <p>Índice</p> 
 
 <p><li><a href="#Sección1">1. Sensores activos vs sensores pasivos</a></li>
- <li><a href="#Sección2">2. Las microondas </a></li>
+ <li><a href="#Sección2">2. Las microondas y RADAR </a></li>
 <li><a href="#Sección3">2. Parametros del sensor</a></li>
 <li><a href="#Sección4">3. Parametros de la cobertura</a></li>
 <li><a href="#Sección5">4. Errores y distorciones geométricas y radiométricas</a></li>
@@ -47,3 +47,5 @@
 <p>Las ondas electromagnéticas en el espectro de las microondas suelen tener λ superior a los 3 cm (10 GHz). Mucho mayores que las utilizadas en el espectro visible e infrarrojo. 
 
 Esto implica también que estas ondas tienen una menor frecuencia y menor energía.</p>
+
+<p>En estas longitudes de onda la atmósfera es "transparente", por lo que la nubosidad u otras distorsiones atmosféricas no son un problema al adquirir imágenes radar independientemente de si es un sensor activo o pasivo.</p>
