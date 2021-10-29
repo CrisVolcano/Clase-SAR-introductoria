@@ -57,9 +57,9 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <p>El espectro del microondas se encuentra en una ventana atmosférica, lo que permite que gran parte de la señal se transmita hasta la superficie terrestre. Estas ventanas atmosféricas son el equivalente de lo que llamamos bandas y es una de las principales razones por la que existe la teledetección.</p> 
 
 <img src="fig6_.png" />
-<h4 id="Sección2">Fig 6. Espectro electromagnético (Chuvieco, 2007).</h4>
+<h4 id="Sección2">Fig 6. Ventanas atmosféricas (Woodhouse, 2006).</h4>
 
 <p><h2 id="Sección3">3. Geometría del SAR</h2></p>
 
 <img src="fig7.png" />
-<h4 id="Sección2">Fig 6. Espectro electromagnético (Chuvieco, 2007).</h4>
+<h4 id="Sección3">Fig 7. Radares aereos de visión lateral (Woodhouse, 2006).</h4>
