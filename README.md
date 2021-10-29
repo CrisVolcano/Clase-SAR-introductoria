@@ -42,5 +42,5 @@
 <p>A: La potencia o fuerza de la onda.</p>
 <p>φ: Describe en qué fase de ciclo se encuentra la onda. La fase inicial define la etapa de la que sale la onda. El uso de la fase no lo evaluaremos acá, pero  es importante que es un parámetro importante.</p>
 
-<img src="fig.png" />
+<img src="fig4.png" />
 <h4 id="Sección1">Fig 4. Caracteristicas de una onda (Weng, 2012).</h4>
