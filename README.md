@@ -200,5 +200,13 @@ Map.addLayer(collectionVV, {min:-25,max:0}, 'VV mosaic', 0);
 ```
 
 <p><h2 id="Sección5">5. Parámetros de la cobertura </h2></p>
+<strong> Constante Dialéctrica</strong>
+
+<p>En teledetección la mayoría de materiales sólidos no son conductores,  estos materiales  los conocemos como dieléctricos. Cuando una onda viaje por un medio dieléctrico pierde energía (atenuación). Esta atenuación es exponencial, por lo que la onda pierde amplitud al propagarse por el medio (atmósfera y superficie terrestre).</p> 
+
+<p>La constante dieléctrica es un indicador de la reflectividad y conductividad de la superficie. Por tanto, nos permite inferir que tanta energía de la onda electromagnética se dispensará o absorberá al interactuar con una superficie. Se suele expresar con valores de 0 a 80, donde los materiales más secos tienen menor C. dieléctrica y el agua abierta la mayor. </p> 
+
+
+
 <p>.</p> 
 <strong> </strong>
