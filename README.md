@@ -162,8 +162,42 @@ ui.root.widgets().reset([split_panel])
 <strong>Polarización</strong>
 
 
+<p>Recuerde que al inicio mencionamos que una onda está compuesta por un campo eléctrico y uno magnético. La orientación del campo eléctrico nos indica la polarización. En SAR usualmente se trabaja con polarizaciones lineales, esto quiere decir que el campo eléctrico puede ser transmitido tanto Vertical (V), como horizontal (H), de igual forma, se puede medir el retorno en Vertical o Horizontal.</p> 
+
+<p>Esto nos da las combinaciones típicas de polarización VV, VH, HH y HV.</p> 
+
+<img src="fig14.png" />
+<h4 id="Sección4">Fig 14.Polarización (Flores-Anderson et al., 2021).</h4>
+
+<p>Copie y pegue en GEE.</p> 
+
+```javascript
+var collectionVH = ee.ImageCollection('COPERNICUS/S1_GRD')
+.filter(ee.Filter.eq('instrumentMode', 'IW'))
+.filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VH'))
+.filter(ee.Filter.eq('orbitProperties_pass', 'DESCENDING'))
+.filterMetadata('resolution_meters', 'equals' , 10)
+.filterDate('2020-10-15', '2020-11-27')
+.filterBounds(roi)
+.select('VH');
+print(collectionVH, 'Collection VH');
+
+var collectionVV = ee.ImageCollection('COPERNICUS/S1_GRD')
+.filter(ee.Filter.eq('instrumentMode', 'IW'))
+.filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))
+.filter(ee.Filter.eq('orbitProperties_pass', 'DESCENDING'))
+.filterMetadata('resolution_meters', 'equals' , 10)
+.filterDate('2020-10-15', '2020-11-27')
+.filterBounds(roi)
+.select('VV');
+print(collectionVV, 'Collection VV');
+
+
+// Display map
+Map.addLayer(collectionVH, {min:-25,max:0}, 'VH mosaic', 0);
+Map.addLayer(collectionVV, {min:-25,max:0}, 'VV mosaic', 0);
+
+```
+
 <p>.</p> 
-
-
-
 <strong> </strong>
