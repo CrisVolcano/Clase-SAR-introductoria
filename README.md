@@ -79,7 +79,7 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 
 <p> El uso del “efecto doppler” permitió lo que se conoce como la apertura sintética, que se basa en que una pequeña antena alcance la resolución efectiva de una antena mucho mayor, lo que permitió la puesta en orbita de satelétes con antenas SAR. Esta innovación se le atribuye Carl Wiley.</p> 
 <img src="fig9.png" />
-<h4 id="Sección3">Fig 9. Radar de Apertura Sintética (Flores-Anderson et al., 2021).</h4>
+<h4 id="Sección3">Fig 9. Radar de Apertura Sintética (Flores-Anderson et al., 2020).</h4>
 
 <p><h2 id="Sección4">4. Parámetros del Sensor </h2></p>
 
@@ -88,7 +88,7 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <p>Mide el retorno de la señal electromagnética que regresa en dirección del sensor posterior a interactuar con la superficie. Esta magnitud es conocida como <strong>retrodispersión </strong>, aunque también se le denomina <strong>sección transversal del radar (RCS por sus siglas en inglés)</strong>.</p> 
 <p></p> 
 <img src="fig10.png" />
-<h4 id="Sección3">Fig 10. Coeficiente de retrodispersión (Flores-Anderson et al., 2021).</h4>
+<h4 id="Sección3">Fig 10. Coeficiente de retrodispersión (Flores-Anderson et al., 2020).</h4>
 
 <p> La cantidad de energía que regrese al sensor va depender de una serie de factores ligados a las <strong> características del sensor y de la superficie</strong>.</p> 
 
@@ -167,7 +167,7 @@ ui.root.widgets().reset([split_panel])
 <p>Esto nos da las combinaciones típicas de polarización VV, VH, HH y HV.</p> 
 
 <img src="fig14.png" />
-<h4 id="Sección4">Fig 14.Polarización (Flores-Anderson et al., 2021).</h4>
+<h4 id="Sección4">Fig 14.Polarización (Flores-Anderson et al., 2020).</h4>
 
 <p>Copie y pegue en GEE.</p> 
 
@@ -235,5 +235,31 @@ Map.addLayer(collectionVV, {min:-25,max:0}, 'VV mosaic', 0);
 <img src="fig20.png" />
 <h4 id="Sección6">Fig 20.Rugosidad de la superficie (EOCollege, 2020).</h4>
 
-<p>.</p> 
+<p>Copie este código bajo en anterior</p> 
+
+```javascript
+//Create a mosaic
+var VH_image = collectionVH.mosaic();
+var VV_image = collectionVV.mosaic();
+
+//Apply filter to reduce speckle
+var SMOOTHING_RADIUS = 50;
+var VV_filter = VH_image.focal_mean(SMOOTHING_RADIUS, 'circle', 'meters');
+var VH_filter = VV_image.focal_mean(SMOOTHING_RADIUS, 'circle', 'meters');
+
+//Display filtered images
+Map.addLayer(VV_filter, {min:-25,max:0}, 'VV_filter',0);
+Map.addLayer(VH_filter, {min:-25,max:0}, 'VH_filter',0);
+
+```
+
+<strong> Errores al capturar la información SAR </strong>
+
+<p>Al tratarse de un sensor que adquiere información de forma lateral es muy sensible a los cambios de topografía y esto se reflejará en la retrodispersión.</p> 
+
+<img src="fig21.png" />
+<h4 id="Sección4">Fig 21. Errores por topografía (Flores-Anderson, 2020).</h4>
+
+
+<p></p>
 <strong> </strong>
