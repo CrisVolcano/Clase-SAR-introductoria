@@ -212,5 +212,12 @@ Map.addLayer(collectionVV, {min:-25,max:0}, 'VV mosaic', 0);
 <img src="fig17.png" />
 <h4 id="Sección4">Fig 17.Composición de un suelo (Meyer, 2021).</h4>
 
+<strong> Densidad y orientación de la cobertura</strong>
+<p>Cómo esté orientada una cobertura o su densidad tendrá un impacto directo en la dispersión de la energía de microondas. </p> 
+
+
+<img src="fig18.png" />
+<h4 id="Sección4">Fig 18.Estructura de una cobertura (Meyer, 2021).</h4>
+
 <p>.</p> 
 <strong> </strong>
