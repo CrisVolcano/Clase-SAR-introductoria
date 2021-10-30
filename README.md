@@ -83,10 +83,66 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 
 <p><h2 id="Sección4">4. Parámetros del Sensor </h2></p>
 
-<p>¿Qué mide un sensor SAR?</p> 
+<p><strong>¿Qué mide un sensor SAR?</strong></p> 
 
 <p>Mide el retorno de la señal electromagnética que regresa en dirección del sensor posterior a interactuar con la superficie. Esta magnitud es conocida como <strong>retrodispersión </strong>, aunque también se le denomina <strong>sección transversal del radar (RCS por sus siglas en inglés)</strong>.</p> 
 <p></p> 
 <img src="fig10.png" />
+<h4 id="Sección3">Fig 10. Coeficiente de retrodispersión (Flores-Anderson et al., 2021).</h4>
 
-<strong></strong>
+<p> La cantidad de energía que regrese al sensor va depender de una serie de factores ligados a las <strong> características del sensor y de la superficie</strong>.</p> 
+
+<strong>a. Ángulo de incidencia </strong>
+<p>Diferencias en el ángulo de incidencia hará que más o menos señal pueda retornar en dirección del sensor.</p> 
+
+<img src="fig11.png" />
+<h4 id="Sección3">Fig 11. Ángulos de Incidencia (Flores-Anderson et al., 2021).</h4>
+
+```javascript
+// Define the time interval.
+var start_date = ee.Date('2019-07-26');
+var end_date = start_date.advance(20, 'days');
+var date_filter = ee.Filter.date(start_date, end_date);
+
+// Define the base Sentinel-1 collection.
+var collection_base = ee.ImageCollection('COPERNICUS/S1_GRD')
+    .filter(date_filter)
+    .filter(ee.Filter.eq('instrumentMode', 'IW'))
+    .filter(ee.Filter.listContains('transmitterReceiverPolarisation', 'VV'))
+    .select(['VV','angle']);
+ 
+// Define the data layers.
+var label1 = 'Ascending Orbit';
+var label1_vv = 'Ascending Orbit - angle';
+var collection1 = collection_base
+    .filter(ee.Filter.eq('orbitProperties_pass', 'ASCENDING'));
+var vis_params1 = {bands:'VV', min:-25, max:5};
+var vis_params1_angle = {bands:'angle', min:18.3, max:46.8};
+
+var label2 = 'Descending Orbit';
+var label2_vv = 'Descending Orbit - angle';
+var collection2 = collection_base
+    .filter(ee.Filter.eq('orbitProperties_pass', 'DESCENDING'));
+var vis_params2 = {bands:'VV', min:-25, max:5};
+var vis_params2_angle = {bands:'angle', min:18.3, max:46.8};
+
+// Create the map objects, link them, and display them.
+var map1 = ui.Map().add(ui.Label(label1, {position:'middle-left'}));
+map1.addLayer(collection1, vis_params1, label1, true);
+map1.addLayer(collection1, vis_params1_angle, label1_vv, false);
+
+var map2 = ui.Map().add(ui.Label(label2, {position:'middle-right'}));
+map2.addLayer(collection2, vis_params2, label2, true);
+map2.addLayer(collection2, vis_params2_angle, label2_vv, false);
+
+var linker = ui.Map.Linker([map1,map2]);
+var split_panel = ui.SplitPanel({
+  firstPanel: map1,
+  secondPanel: map2,
+  wipe: true,
+});
+
+// Add the split panel to the UI.
+ui.root.widgets().reset([split_panel])
+```
+<strong> </strong>
