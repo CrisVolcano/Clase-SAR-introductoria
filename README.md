@@ -41,7 +41,7 @@
 <p> λ: El periodo espacial sobre el que se repite la función (la distancia entre crestas)</p>
 <p>F: Número de ciclos por unidad de tiempo.</p>
 <p>A: La potencia o fuerza de la onda.</p>
-<p>φ: Describe en qué fase de ciclo se encuentra la onda. La fase inicial define la etapa de la que sale la onda. El uso de la fase no lo evaluaremos acá, pero  es importante que es un parámetro importante.</p>
+<p>φ: Describe en qué fase de ciclo se encuentra la onda. La fase inicial define la etapa de la que sale la onda. El uso de la fase no lo evaluaremos acá, pero  es un parámetro importante en Interferometría de Radar o INSAR.</p>
 
 <img src="fig4.png" />
 <h4 id="Sección2">Fig 4. Caracteristicas de una onda (Weng, 2012).</h4>
@@ -62,6 +62,10 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <p><h2 id="Sección3">3. Geometría básica del SAR</h2></p>
 
 <p> Los SLAR o radares aéreos de visión lateral fueron desarrollados con fines militares a mediados del siglo XX. Se basan en la observación lateral de una antena que es transportada por una aeronave. Representaban la capacidad de detectar objetos por debajo de coberturas. Estos sensores transmiten haces estrechos en forma de abanico desde el avión. </p> 
+<p>  Swat: describe la anchura de la franja de la superficie de la tierra que es iluminada por el radar.  </p>
+<p>  Rango o alcance: Distancia entre el radar y cada objeto iluminado. Permite distinguir objetos en diferentes rangos. </p>
+<p> Azimuth: permite distinguir objetos en la dirección del azimut o vuelo del sensor.   </p>
+<p> Ángulo de incidencia: es el ángulo definido por el haz de radar incidente y la vertical con respecto a la superficie. Luego veremos como el ángulo de incidencia juega un papel primordial en las mediciones con SAR. </p>
 
 <img src="fig7.png" />
 <h4 id="Sección3">Fig 7. Radares aereos de visión lateral (Woodhouse, 2006).</h4>
