@@ -199,5 +199,6 @@ Map.addLayer(collectionVV, {min:-25,max:0}, 'VV mosaic', 0);
 
 ```
 
+<p><h2 id="Sección5">5. Parámetros de la cobertura </h2></p>
 <p>.</p> 
 <strong> </strong>
