@@ -206,7 +206,11 @@ Map.addLayer(collectionVV, {min:-25,max:0}, 'VV mosaic', 0);
 
 <p>La constante dieléctrica es un indicador de la reflectividad y conductividad de la superficie. Por tanto, nos permite inferir que tanta energía de la onda electromagnética se dispensará o absorberá al interactuar con una superficie. Se suele expresar con valores de 0 a 80, donde los materiales más secos tienen menor C. dieléctrica y el agua abierta la mayor. </p> 
 
+<img src="fig16.png" />
+<h4 id="Sección4">Fig 16.Constante dialectrica y penetración (Meyer, 2021).</h4>
 
+<img src="fig17.png" />
+<h4 id="Sección4">Fig 17.Composición de un suelo (Meyer, 2021).</h4>
 
 <p>.</p> 
 <strong> </strong>
