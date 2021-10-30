@@ -260,6 +260,16 @@ Map.addLayer(VH_filter, {min:-25,max:0}, 'VH_filter',0);
 <img src="fig21.png" />
 <h4 id="Sección4">Fig 21. Errores por topografía (Flores-Anderson, 2020).</h4>
 
+<p><h2 id="Sección7">7.Interpretando una imagen SAR</h2></p>
+<p>Como se mencionó antes, un SAR mide la retrodispersión, que es la energía de microondas que regresa al sensor posterior a interactuar con la superficie. </p>
+<p>Una superficie o medio dieléctrico puede dispersar, transmitir y absorber energía de microondas.  La intensidad de la retrodispersión está directamente relacionada con el tipo de cobertura y sus características, permitiendo así la clasificación y evaluación del estado de las coberturas.</p>
+
+<p>La retrodispersión en coberturas se suelen simplificar en cuatro mecanismos:</p>
+<p>Retrodispersión especular (superficies lisas/agua abierta ) </p>
+<p>Retrodispersión por volumen (dosel del bosque)</p>
+<p>Retrodispersión por doble rebote (bosques/ infraestructura)</p>
+<p>Retrodispersión rugosa (típico en zonas agrícolas)</p>
+
 
 <p></p>
 <strong> </strong>
