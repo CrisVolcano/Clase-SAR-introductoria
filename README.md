@@ -11,7 +11,7 @@
 
 <p><li><a href="#Sección1">1. Sensores activos vs sensores pasivos</a></li>
  <li><a href="#Sección2">2. Las microondas y SAR </a></li>
-  <li><a href="#Secció3">3. Geometría del SAR</a></li>
+  <li><a href="#Sección3">3. Geometría del SAR</a></li>
 <li><a href="#Sección4">4. Parametros del sensor</a></li>
 <li><a href="#Sección5">5. Parametros de la cobertura</a></li>
 <li><a href="#Sección6">6. Errores y distorciones geométricas y radiométricas</a></li>
@@ -99,6 +99,7 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <h4 id="Sección3">Fig 11. Ángulos de Incidencia (Flores-Anderson et al., 2021).</h4>
 
 <p>Copie y pegue este código en GEE</p> 
+
 ```javascript
 // Define the time interval.
 var start_date = ee.Date('2019-07-26');
@@ -148,7 +149,14 @@ ui.root.widgets().reset([split_panel])
 ```
 
 <strong> Lóngitud de Onda</strong>
-<p>Los sensores SAR usualmente .</p> 
+<p>Igual que en los sensores ópticos en SAR también se definen bandas acorde a la longitud de onda, aunque estos usualmente solo capturan información en una banda determinada. La longitud de onda definirá la interacción de la señal con la superficie, por ejemplo, la capacidad de penetración de la señal en la cobertura, además de que tan rugosa se percibirá ante el sensor.  </p> 
+
+<img src="fig12.png" />
+<h4 id="Sección3">Fig 12.Bandas en SAR.</h4>
+
+<img src="fig13.png" />
+<h4 id="Sección3">Fig 13.CApacidad de penetración.</h4>
+
 
 <p>.</p> 
 
