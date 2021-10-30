@@ -11,7 +11,7 @@
 
 <p><li><a href="#Sección1">1. Sensores activos vs sensores pasivos</a></li>
  <li><a href="#Sección2">2. Las microondas y SAR </a></li>
-  <li><a href="#Secció32">3. Geometría del SAR</a></li>
+  <li><a href="#Secció3">3. Geometría del SAR</a></li>
 <li><a href="#Sección4">4. Parametros del sensor</a></li>
 <li><a href="#Sección5">5. Parametros de la cobertura</a></li>
 <li><a href="#Sección6">6. Errores y distorciones geométricas y radiométricas</a></li>
@@ -77,9 +77,10 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <img src="fig8.png" />
 <h4 id="Sección3">Fig 8. Tamaño de la antena (Meyer, 2021).</h4>
 
-El uso del “efecto doppler” permitió lo que se conoce como la apertura sintética, que se basa en que una pequeña antena alcance la resolución efectiva de una antena mucho mayor. Esta innovación se le atribuye Carl Wiley. 
+<p> El uso del “efecto doppler” permitió lo que se conoce como la apertura sintética, que se basa en que una pequeña antena alcance la resolución efectiva de una antena mucho mayor. Esta innovación se le atribuye Carl Wiley.</p> 
 <img src="fig9.png" />
 <h4 id="Sección3">Fig 9. Radar de Apertura Sintética (Flores-Anderson et al., 2021).</h4>
 
+<p><h2 id="Sección4">4. Parámetros del Sensor </h2></p>
 
-
+<p>¿Qué mide un sensor SAR?</p> 
