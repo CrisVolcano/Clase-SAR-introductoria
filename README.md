@@ -59,7 +59,9 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <img src="fig6_.png" />
 <h4 id="Sección2">Fig 6. Ventanas atmosféricas (Woodhouse, 2006).</h4>
 
-<p><h2 id="Sección3">3. Geometría del SAR</h2></p>
+<p><h2 id="Sección3">3. Geometría básica del SAR</h2></p>
+
+<p> Los SLAR o raderes aéreos de visión lateral fueron desarrollados con fines militares a mediados del siglo XX. Se basan en la observación lateral de una antena que es transportada por una aeronave. Representaban la capacidad de detectar objetos por debajo de coberturas. Estos sensores transmiten haces estrechos en forma de abanico desde el avión. </p> 
 
 <img src="fig7.png" />
 <h4 id="Sección3">Fig 7. Radares aereos de visión lateral (Woodhouse, 2006).</h4>
