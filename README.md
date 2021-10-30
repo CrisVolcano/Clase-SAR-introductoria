@@ -227,6 +227,13 @@ Map.addLayer(collectionVV, {min:-25,max:0}, 'VV mosaic', 0);
 <img src="fig19.png" />
 <h4 id="Sección4">Fig 19.Rugosidad de la superficie (Woodhouse, 2006).</h4>
 
+<p><h2 id="Sección6">6. Errores y distorciones radiométricas y geométricas</h2></p>
+
+<strong> Moteado o Speckle </strong>
+<p>Cambios significativos en los niveles de gris entre celdas o píxeles adyacentes. La retrodispersión de cada pixel es el resultado de la suma coherente de las contribuciones de todos los elementos que componen una celda de resolución.</p> 
+
+<img src="fig20.png" />
+<h4 id="Sección6">Fig 20.Rugosidad de la superficie (EOCollege, 2020).</h4>
 
 <p>.</p> 
 <strong> </strong>
