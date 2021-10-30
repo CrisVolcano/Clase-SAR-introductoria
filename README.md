@@ -87,5 +87,6 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 
 <p>Mide el retorno de la señal electromagnética que regresa en dirección del sensor posterior a interactuar con la superficie. Esta magnitud es conocida como <strong>retrodispersión </strong>, aunque también se le denomina <strong>sección transversal del radar (RCS por sus siglas en inglés)</strong>.</p> 
 <p></p> 
+<img src="fig10.png" />
 
 <strong></strong>
