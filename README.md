@@ -221,7 +221,7 @@ Map.addLayer(collectionVV, {min:-25,max:0}, 'VV mosaic', 0);
 
 <strong>Rugosidad </strong>
 
-<p>Que tán rugosa sea una superficie determinará cuánta energía se dispersa de una superficie y su dirección. Aunque el nivel de rugosidad visto por un SAR dependerá de la longitud de onda (banda) y del ángulo de incidencia del sensor. Conforme aumente la longitud de onda más lisa será una cobertura en una imágen SAR (X<C<L).</p>
+<p>Que tán rugosa sea una superficie determinará cuánta energía se dispersa de una superficie y su dirección. Aunque el nivel de rugosidad visto por un SAR dependerá de la longitud de onda (banda) y del ángulo de incidencia del sensor. Conforme aumente la longitud de onda más lisa será una cobertura en una imágen SAR.</p>
 
 
 <img src="fig19.png" />
