@@ -84,3 +84,8 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <p><h2 id="Sección4">4. Parámetros del Sensor </h2></p>
 
 <p>¿Qué mide un sensor SAR?</p> 
+
+<p>Mide el retorno de la señal electromagnética que regresa en dirección del sensor posterior a interactuar con la superficie. Esta magnitud es conocida como <strong>retrodispersión </strong>, aunque también se le denomina <strong>sección transversal del radar (RCS por sus siglas en inglés)</strong>.</p> 
+<p></p> 
+
+<strong></strong>
