@@ -152,10 +152,14 @@ ui.root.widgets().reset([split_panel])
 <p>Igual que en los sensores ópticos en SAR también se definen bandas acorde a la longitud de onda, aunque estos usualmente solo capturan información en una banda determinada. La longitud de onda definirá la interacción de la señal con la superficie, por ejemplo, la capacidad de penetración de la señal en la cobertura, además de que tan rugosa se percibirá ante el sensor.  </p> 
 
 <img src="fig12.png" />
-<h4 id="Sección3">Fig 12.Bandas en SAR.</h4>
+<h4 id="Sección3">Fig 12.Bandas en SAR (Flores-Anderson et al., 2021).</h4>
 
 <img src="fig13.png" />
-<h4 id="Sección3">Fig 13.CApacidad de penetración.</h4>
+<h4 id="Sección3">Fig 13.Capacidad de penetración (EO College, 2020).</h4>
+
+
+
+<strong>Polarización</strong>
 
 
 <p>.</p> 
