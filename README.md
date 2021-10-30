@@ -98,6 +98,7 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <img src="fig11.png" />
 <h4 id="Sección3">Fig 11. Ángulos de Incidencia (Flores-Anderson et al., 2021).</h4>
 
+<p>Copie y pegue este código en GEE</p> 
 ```javascript
 // Define the time interval.
 var start_date = ee.Date('2019-07-26');
@@ -145,4 +146,12 @@ var split_panel = ui.SplitPanel({
 // Add the split panel to the UI.
 ui.root.widgets().reset([split_panel])
 ```
+
+<strong> Lóngitud de Onda</strong>
+<p>Los sensores SAR usualmente .</p> 
+
+<p>.</p> 
+
+
+
 <strong> </strong>
