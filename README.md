@@ -74,5 +74,12 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 
 <p>Esta situación supuso uno de los mayores retos para la generación de imágenes SAR.</p>  
 
+<img src="fig8.png" />
+<h4 id="Sección3">Fig 8. Tamaño de la antena (Meyer, 2021).</h4>
+
+El uso del “efecto doppler” permitió lo que se conoce como la apertura sintética, que se basa en que una pequeña antena alcance la resolución efectiva de una antena mucho mayor. Esta innovación se le atribuye Carl Wiley. 
+<img src="fig9.png" />
+<h4 id="Sección3">Fig 9. Radar de Apertura Sintética (Flores-Anderson et al., 2021).</h4>
+
 
 
