@@ -69,3 +69,5 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 
 <img src="fig7.png" />
 <h4 id="Sección3">Fig 7. Radares aereos de visión lateral (Woodhouse, 2006).</h4>
+
+
