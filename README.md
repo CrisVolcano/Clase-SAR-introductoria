@@ -70,4 +70,9 @@ Esto implica también que estas ondas tienen una menor frecuencia y menor energ�
 <img src="fig7.png" />
 <h4 id="Sección3">Fig 7. Radares aereos de visión lateral (Woodhouse, 2006).</h4>
 
+<p> La huella de iluminación (tamaño de píxel) de una imagen SAR va depender de la longitud de la antena L, la longitud de onda λ y la distancia entre la superficie y el sensor R. Entre mayor sea la distancia entre la superficie y el sensor, mayor debe ser la longitud de la antena para tener una huella de iluminación útil.</p>
+
+<p>Esta situación supuso uno de los mayores retos para la generación de imágenes SAR.</p>  
+
+
 
