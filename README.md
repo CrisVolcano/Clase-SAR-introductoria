@@ -219,5 +219,11 @@ Map.addLayer(collectionVV, {min:-25,max:0}, 'VV mosaic', 0);
 <img src="fig18.png" />
 <h4 id="Sección4">Fig 18.Estructura de una cobertura (Meyer, 2021).</h4>
 
+<strong>Rugosidad </strong>
+<p>Que tán rugosa sea una superficie determinará cuánta energía se dispersa de una superficie y su dirección. Aunque el nivel de rugosidad visto por un SAR dependerá de la longitud de onda (banda) y del ángulo de incidencia del sensor. Conforme aumente la longitud de onda más lisa será una cobertura en una imágen SAR (X<C<L).</p>
+
+<img src="fig19.png" />
+<h4 id="Sección4">Fig 19.Rugosidad de la superficie (Woodhouse, 2006).</h4>
+
 <p>.</p> 
 <strong> </strong>
