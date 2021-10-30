@@ -270,6 +270,11 @@ Map.addLayer(VH_filter, {min:-25,max:0}, 'VH_filter',0);
 <p>Retrodispersión por doble rebote (bosques/ infraestructura)</p>
 <p>Retrodispersión rugosa (típico en zonas agrícolas)</p>
 
+<img src="fig23.png" />
+<h4 id="Sección7">Fig 22.Mecanismos típicos de retrodispersión (Flores-Anderson, 2020).</h4>
 
-<p></p>
-<strong> </strong>
+<img src="fig22.png" />
+<h4 id="Sección7">Fig 23.Mecanismos típicos de retrodispersión (Weng, 2012).</h4>
+
+<strong>Muchas gracias </strong>
+<p>Este es un documento que busca mostrar los conceptos más básicos en la generación e interpretación de imágenes SAR.</p>
