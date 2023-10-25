@@ -1,7 +1,7 @@
 # Clase Introductoria a SAR
 
 <h1>Introducción al Radar de Apertura Sintética (SAR)</h1> 
-<h2>Por: Cristian Aguilar-Barboza </h2> 
+<h2>Por: Cristian Aguilar-Barboza Red Aeroespacial Centroamericana</h2> 
 
 
 <p>Este material está destinado para los estudiantes del curso de Teledetección de la Escuela de Geografía de la UCR 2021.</p>
